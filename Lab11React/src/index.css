@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 320px;
+    box-shadow: 0 0 5px black;
+    border-radius: 1%;
+}
+
+.img {
+    width: 100%;
+    border-radius: 1% 1% 0 0;
+}
+
+.title {
+    margin: 10px 25px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.text {
+    margin: 0 0 40px 25px;
+    color: gray;
+}
+
+.diameter {
+    margin: 0 0 0 25px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5%;
+}
+
+.price {
+    margin: 10px 25px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    margin: 0px 25px;
+    padding: 0 0 25px 0;
+}
+
+.remove {
+    padding: 2px 10px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    border-color: gray;
+    font-size: 1.3rem;
+}
+
+.add {
+    padding: 2px 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    border-color: gray;
+    font-size: 1.3rem;
+}
+
+.count {
+    width: 30%;
+    padding: 4px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.button {
+    background: url("./images/basket.png") no-repeat center center;
+    background-size: auto 80%;
+    padding: 5px 0 5px 60px;
+    margin-left: 10px;
+    border-radius: 10%;
+    border-width: 1px;
+    background-color: rgb(20, 240, 20);
+    cursor: pointer;
+}
